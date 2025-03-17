@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for a tools website offering image and PDF tools. Fully responsive and user-friendly.">
+    <meta name="keywords" content="image tools, PDF tools, online tools, free tools, responsive design">
+    <meta name="author" content="Your Name">
+    <title>Tools Website - Home</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tool-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .tool-card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+
+        .tool-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+
+        .tool-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .tool-card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .tool-card a:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .tool-card h3 {
+                font-size: 1.2rem;
+            }
+
+            .tool-card p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tools Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Image Tools</a>
+        <a href="#">PDF Tools</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Welcome to Our Tools Website</h2>
+            <p>Explore a wide range of free online tools for images, PDFs, and more. Simple, fast, and easy to use!</p>
+        </section>
+
+        <!-- Tools Grid Section -->
+        <section class="tools-grid">
+            <section class="tools-grid">
+    <div class="tool-card">
+        <img src="https://via.placeholder.com/60" alt="Image Compressor Icon">
+        <h3>Image Compressor</h3>
+        <p>Compress your images without losing quality. Perfect for web and mobile use.</p>
+        <a href=/image-compressor.html">Use Tool</a>
+    </div>
+            <div class="tool-card">
+                <img src="https://via.placeholder.com/60" alt="PDF Merger Icon">
+                <h3>PDF Merger</h3>
+                <p>Combine multiple PDF files into one. Fast and secure.</p>
+                <a href="#">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <img src="https://via.placeholder.com/60" alt="Image Resizer Icon">
+                <h3>Image Resizer</h3>
+                <p>Resize your images to any dimension. Supports JPG, PNG, and more.</p>
+                <a href="#">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <img src="https://via.placeholder.com/60" alt="PDF Splitter Icon">
+                <h3>PDF Splitter</h3>
+                <p>Split a PDF into multiple files. Easy and efficient.</p>
+                <a href="#">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <img src="https://via.placeholder.com/60" alt="Image Converter Icon">
+                <h3>Image Converter</h3>
+                <p>Convert images between formats like JPG, PNG, GIF, and more.</p>
+                <a href="#">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <img src="https://via.placeholder.com/60" alt="PDF to Word Icon">
+                <h3>PDF to Word</h3>
+                <p>Convert PDF files to editable Word documents.</p>
+                <a href="#">Use Tool</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tools Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
